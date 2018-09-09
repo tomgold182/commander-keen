@@ -72,5 +72,5 @@ set-item wsman:\localhost\Client\TrustedHosts -value 10.8.*
 
 ~~~
 cd /CommanderKeen
-powershell ./Dispatcher.ps1 -username some_user -password some_pass -action GetUsersList - ip 10.8.4.4
+powershell ./Dispatcher.ps1 -username some_user -password some_pass -action GetUsersList -ip 10.8.4.4
 ~~~
